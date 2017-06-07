@@ -1,0 +1,5 @@
+/react-backend
+PORT=3001 node bin/www
+
+/react-backend/client
+npm start
