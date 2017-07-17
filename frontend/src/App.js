@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Menu from './menu/Menu';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
+        <Menu/>
+
         <h1>Users</h1>
         {this.state.users.map(user =>
           <div key={user.id}>{user.username}</div>
